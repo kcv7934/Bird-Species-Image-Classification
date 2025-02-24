@@ -14,6 +14,8 @@ This project uses a **MobileNetV2** model pre-trained on ImageNet for bird speci
 ## Dataset
 The dataset consists of images of birds stored in a directory. The corresponding labels (bird species) are stored in a CSV file 'gt.csv' that contains the image paths and labels.
 
+Link to Google Drive containg validation and training set: https://drive.google.com/drive/folders/1ZYDd-pcToBeAAzSTSHm9qKWNxyTA9AY3?usp=share_link
+
 ## Model Architecture
 The model architecture is based on **MobileNetV2**, which has been fine-tuned to classify bird images:
 - **Pre-trained MobileNetV2** weights are used for learning.
